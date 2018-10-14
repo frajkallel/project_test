@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.100.11
+- hosts: server
   tasks:
   - name: create file in tmp
     shell: touch /tmp/fraj.log
