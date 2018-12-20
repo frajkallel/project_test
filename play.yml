@@ -2,4 +2,4 @@
 - hosts: server
   tasks:
   - name: create file in tmp
-    file: state=touch path=/tmp/fraj.log
+file: state=touch path=/tmp/fraj.log
